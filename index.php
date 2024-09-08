@@ -8,14 +8,14 @@ session_start();
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style4.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <form method="POST" autocomplete="off">
             <div class="title">
-                <h1>DIGI NETWORK </h1>
+                <h1>DECCAN NETWORK </h1>
             </div>
             <div class="form">
                 <div class="input_field">
