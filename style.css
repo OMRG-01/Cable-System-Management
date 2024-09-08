@@ -18,7 +18,7 @@ body
     transition-duration: 5s;
     border-radius: 50px;
     max-width: 500px;
-    width: 100%;
+    width: 200%;
     background-color: white;
     margin: 20px auto;
     padding: 30px;
@@ -26,7 +26,7 @@ body
 }
 .container .title
 {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     margin-bottom: 25px;
@@ -58,7 +58,7 @@ body
     font-size: 20px;
     padding: 8px 10px;
     border-radius: 3px;
-    
+      font-weight: bold;
     
 }
 .container .form .input_field .selectbox
@@ -73,18 +73,6 @@ body
     font-weight: bold;
 }
 
-.container .form .input_field .btn
-{
-    width: 100%;
-    padding: 8px 10px;
-    font-size: 15px;
-    border: 0;
-    background: purple;
-    color:white;
-    cursor: pointer;
-    border-radius: 3px;
-    outline: none;
-}
 .flex {
     display: flex;
     justify-content: center;
@@ -95,6 +83,7 @@ body
 }
 .button {
     margin-top: 1px;
+    margin-bottom: 10px;
     background-color: #0066FF;
     border: none;
     color: white;

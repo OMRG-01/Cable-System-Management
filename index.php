@@ -35,7 +35,7 @@ session_start();
             <form action="operator.php" class="flex-item">
             <button class="button">Admin Page</button>
             </form>
-            <form action="newregister.php" class="flex-item">
+            <form action="newReg.php" class="flex-item">
             <button class="button">New Registration</button>
             </form>
             </div>
