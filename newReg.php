@@ -51,7 +51,7 @@ include ("connection.php");
                 </div>
                 <div class="input_field">
                     <label>Set Username</label>
-                    <input type="text" class="input" name="hname" placeholder="eg.mayur@123" required>
+                    <input type="text" class="input" name="hname" placeholder="eg.om@123" required>
                 </div>
                 <div class="input_field">
                     <label>Password</label>
@@ -59,8 +59,8 @@ include ("connection.php");
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
                     title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character" required>
                 </div>
-                <div class="flex">
-                    <button class="btns" type="submit"  value="Register" name="register">Register</button>
+                <div class="input_field">
+                    <button class="btn" type="submit"  value="Register" name="register">Register</button>
                     <form action="index.php">
                     </form>
                 </div>
