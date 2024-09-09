@@ -60,7 +60,7 @@ include ("connection.php");
                     title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character" required>
                 </div>
                 <div class="flex">
-                    <button class="button" type="submit"  value="Register" name="register">Register</button>
+                    <button class="btns" type="submit"  value="Register" name="register">Register</button>
                     <form action="index.php">
                     </form>
                 </div>

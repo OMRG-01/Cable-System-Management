@@ -27,8 +27,7 @@ session_start();
                     <input type="password" class="input" name="password" required>
                 </div>
                 <div class="input_field">
-                    <button type="submit" class="btn" value="Register" name="register"
-                    formaction="#">Login</button>
+                    <button type="submit"  class="btn" value="Register" name="register" formaction="#">Login</button>
                 </div>
         </form>
         <div class="flex">
