@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    overflow-x: hidden; 
+    background-image: url('images/maincable.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} 
+    
+
+.sidebar {
+    font-size: 25px;
+    border: 1px solid black;
+    width: 275px;
+    text-align: center;
+    background-color:#f05462;
+    color: #fff;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+}
+img{
+    width:10px;
+    height: 10px;
+}
+.menu {
+    list-style: none;
+    padding: 0;    
+}
+.menu li {
+    padding: 15px;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.menu li a:hover {
+    background-color: pink;
+}
+.container {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vw;
+}
+.container .header{
+    position: relative;
+    top: 0;
+    right: 0;
+    
+    width: 100vw;
+    height: 5vw;
+    background-color: #f05462;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.constant .header.navbar{
+    width: 100%;
+    display: flex;
+}
+.constant .header .navbar h3
+{
+    text-align: end;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    pad: 15px 10px;
+    border-bottom: 2px solid black;
+}
+table{
+    padding: 10px;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+
+.constant {
+    background-image: url("maincable.png");
+background-repeat: no-repeat;
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+}    
+.constant .cards{
+
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.constant .cards .box{
+    width:250px;
+    height: 200px;
+    border-radius: 20px;
+    background: gray;
+    margin: 20px 10px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+h3{
+    text-align: center;
+}
